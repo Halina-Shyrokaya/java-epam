@@ -1,3 +1,5 @@
+package by.shirokaya.tasks.cleancode.aircompany.Java.src.main.java;
+
 import Planes.experimentalPlane;
 import models.MilitaryType;
 import Planes.MilitaryPlane;
