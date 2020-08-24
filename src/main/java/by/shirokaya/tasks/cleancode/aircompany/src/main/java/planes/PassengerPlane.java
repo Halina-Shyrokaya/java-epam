@@ -1,37 +1,27 @@
-package Planes;
+package planes;
+
+import models.ClassificationLevel;
+import models.ExperimentalType;
+import models.MilitaryType;
 
 import java.util.Objects;
 
 public class PassengerPlane extends Plane{
 
-    //=================FIELDS=================
     private int passengersCapacity;
 
-    //=================CONSTRUCTORS=================
     public PassengerPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, int passengersCapacity) {
-        super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
+        super(model, maxSpeed, maxFlightDistance, maxLoadCapacity, ClassificationLevel.NONE, ExperimentalType.NONE, MilitaryType.NONE);
         this.passengersCapacity = passengersCapacity;
     }
 
-
-    //=================METHODS=================
     public int getPassengersCapacity() {
         return passengersCapacity;
     }
 
-    @Override
-    public String toString() {
-        return super.toString().replace("}",
-                ", passengersCapacity=" + passengersCapacity +
-                '}');
+    public void setPassengersCapacity(int passengersCapacity) {
+        this.passengersCapacity = passengersCapacity;
     }
-
-//    @Override
-//    public String toString() {
-//        return super.toString().replace("}",
-//                ", passengersCapacity=" + passengersCapacity +
-//                        '}');
-//    }
 
     @Override
     public boolean equals(Object o) {
@@ -46,4 +36,13 @@ public class PassengerPlane extends Plane{
     public int hashCode() {
         return Objects.hash(super.hashCode(), passengersCapacity);
     }
+
+    @Override
+    public String toString() {
+        return super.toString().replace("}",
+                ", passengersCapacity=" + passengersCapacity +
+                        '}');
+    }
+
+
 }
