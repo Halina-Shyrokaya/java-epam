@@ -1,0 +1,162 @@
+{
+  "list": [
+    {
+      "type": "Caramel",
+      "name": "Strawberry",
+      "filling": "strawberry jam",
+      "weight": 4.1,
+      "sugarContent": 0.66,
+      "shelfLife": 365,
+      "isCoveredWithChocolate": false
+    },
+    {
+      "type": "Caramel",
+      "name": "Cherry boom",
+      "filling": "cherry jam",
+      "weight": 4.1,
+      "sugarContent": 0.66,
+      "shelfLife": 365,
+      "isCoveredWithChocolate": false
+    },
+    {
+      "type": "Caramel",
+      "name": "Happy crab",
+      "filling": "halva",
+      "weight": 4.1,
+      "sugarContent": 0.66,
+      "shelfLife": 365,
+      "isCoveredWithChocolate": false
+    },
+    {
+      "type": "Caramel",
+      "name": "Milky splash",
+      "filling": "no filling",
+      "weight": 4.1,
+      "sugarContent": 0.66,
+      "shelfLife": 365,
+      "isCoveredWithChocolate": false
+    },
+    {
+      "type": "Caramel",
+      "name": "Choco Jelly",
+      "filling": "no filling",
+      "weight": 4.1,
+      "sugarContent": 0.66,
+      "shelfLife": 365,
+      "isCoveredWithChocolate": true
+    },
+    {
+      "type": "Sweets",
+      "name": "Cont&Blue",
+      "filling": "ireland cream",
+      "weight": 12.5,
+      "sugarContent": 0.42,
+      "shelfLife": 240,
+      "sweetsType": "TOFFY"
+    },
+    {
+      "type": "Sweets",
+      "name": "Truffle",
+      "filling": "hazel nuts",
+      "weight": 12.5,
+      "sugarContent": 0.42,
+      "shelfLife": 240,
+      "sweetsType": "TRUFFLE"
+    },
+    {
+      "type": "Sweets",
+      "name": "Sweet heart",
+      "filling": "apple jam",
+      "weight": 12.5,
+      "sugarContent": 0.42,
+      "shelfLife": 240,
+      "sweetsType": "JELLY"
+    },
+    {
+      "type": "Sweets",
+      "name": "Pineapple",
+      "filling": "apple jam",
+      "weight": 8.6,
+      "sugarContent": 0.42,
+      "shelfLife": 365,
+      "sweetsType": "WAFFLE"
+    },
+    {
+      "type": "Sweets",
+      "name": "Cherry lady",
+      "filling": "cherry in cognac",
+      "weight": 12.5,
+      "sugarContent": 0.42,
+      "shelfLife": 240,
+      "sweetsType": "FONDANT"
+    },
+    {
+      "type": "Sweets",
+      "name": "Citrus",
+      "filling": "sour fondant",
+      "weight": 12.5,
+      "sugarContent": 0.42,
+      "shelfLife": 240,
+      "sweetsType": "FONDANT"
+    },
+    {
+      "type": "Sweets",
+      "name": "VIVA gracioso",
+      "filling": "nougat with peanuts",
+      "weight": 12.5,
+      "sugarContent": 0.42,
+      "shelfLife": 240,
+      "sweetsType": "NOUGAT"
+    },
+    {
+      "type": "Chocolate",
+      "name": "Milky with hazel nuts",
+      "filling": "hazel nuts",
+      "weight": 90.0,
+      "sugarContent": 0.54,
+      "shelfLife": 365,
+      "cacaoContent": 0.42,
+      "milkContent": 0.15
+    },
+    {
+      "type": "Chocolate",
+      "name": "Milky with peanuts and raisins",
+      "filling": "peanuts and raisins",
+      "weight": 90.0,
+      "sugarContent": 0.54,
+      "shelfLife": 365,
+      "cacaoContent": 0.42,
+      "milkContent": 0.15
+    },
+    {
+      "type": "Chocolate",
+      "name": "Bitter 72%",
+      "filling": "no filling",
+      "weight": 90.0,
+      "sugarContent": 0.36,
+      "shelfLife": 365,
+      "cacaoContent": 0.72,
+      "milkContent": 0.0
+    },
+    {
+      "type": "Chocolate",
+      "name": "Bitter without sugar",
+      "filling": "no filling",
+      "weight": 90.0,
+      "sugarContent": 0.0,
+      "shelfLife": 365,
+      "cacaoContent": 0.72,
+      "milkContent": 0.0
+    },
+    {
+      "type": "Chocolate",
+      "name": "Milky",
+      "filling": "cherry jam",
+      "weight": 90.0,
+      "sugarContent": 0.54,
+      "shelfLife": 365,
+      "cacaoContent": 0.36,
+      "milkContent": 0.2
+    }
+  ]
+}
